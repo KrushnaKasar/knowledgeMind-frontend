@@ -1,0 +1,37 @@
+.article-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ai-tools-section {
+    background: var(--gradient-glow);
+    border: 1px solid rgba(217, 70, 239, 0.2);
+    border-radius: var(--radius-lg);
+    padding: var(--space-5);
+}
+
+.ai-tools-title {
+    font-size: 1rem;
+    margin-bottom: var(--space-3);
+    color: var(--accent-300);
+}
+
+.ai-tools-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border-color);
+}
+
+.form-actions .btn {
+    min-width: 200px;
+}
